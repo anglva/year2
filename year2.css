@@ -1,0 +1,92 @@
+@media only screen and (max-width: 768px){
+    html{
+        height: 100%;
+    }
+    body { /*background-image: url(jar.jpg);*/
+            background-color: #58375A;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            background-position: center;
+            font-family: 'Courier New', Courier, monospace; 
+    }
+
+    #wrapper {
+        padding: 0%;
+        margin-top: 0%;
+        height: 100%;
+    }
+
+    h1 { display: block; text-align: center;
+         margin-left: auto; margin-right: auto;
+         color: #f2f2f2;
+    }
+    .none {display: none;
+
+    }
+    #noon {display: none;
+
+    }
+    #moon {position: absolute; top: 10px;
+            display: block;
+            height: 120px; width: auto;
+            margin-top: 20%;
+
+    }
+    #herent {display: none;
+
+    }
+    #here { position: absolute; top: 110px;
+            left: 28px;
+            color:aliceblue;
+            font-size: 24px;
+            font-weight: bold;
+
+    }
+    .frame{ position: absolute; 
+             margin-top: 1px;  
+             width: 320px;
+             height: 350px;
+             margin-left: 20px;
+             display: none;
+    }
+    
+    p {position: absolute; top: 440px;
+        left: 50px;
+        font-size: 14px;
+
+    }
+    nav {background-color: #58375A; display: block; padding: 5px;
+        color: #f2f2f2; font-size: medium; border-color: #f2f2f2;
+        text-align: center;
+    }
+    a {
+        text-decoration: none; color: #f2f2f2; border-style:solid;
+        padding: 5px; 
+    }
+    #play { padding: 18px; }
+    #apl{padding-left: 67.41px; padding-right: 67.41px;
+    }
+    #explore{ padding: 18px;
+    }
+    #aex{ padding-left: 53px; padding-right: 53px;
+        
+    }
+    #one{ padding: 18px;
+
+    }
+    #space {padding: 5px;
+        width: 300px;
+    }
+    #map {position: absolute; top: 200px; width: 359.33px; height:400px}
+    #pic{width: 350px; text-align: center;
+    }
+    #art{
+        text-align: center;
+    }
+    #game{color: #f2f2f2; padding-top: 20px; text-align: center;
+    }
+    #answer{ padding-top: 10px; display: none; }
+    button { color: #f2f2f2; background-color: #58375A; border-color: #f2f2f2;
+    }
+}
