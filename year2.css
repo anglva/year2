@@ -56,7 +56,7 @@
         font-size: 14px;
 
     }
-    nav {background-color: #58375A; display: block; padding: 5px;
+    nav {display: block; padding: 5px;
         color: #f2f2f2; font-size: medium; border-color: #f2f2f2;
         text-align: center;
     }
@@ -89,4 +89,6 @@
     #answer{ padding-top: 10px; display: none; }
     button { color: #f2f2f2; background-color: #58375A; border-color: #f2f2f2;
     }
+    #wDate, #wAnswer, #cAnswer, #winner{ display: none;}
+    #eye{position: absolute; top: 70px; display: none;}
 }
