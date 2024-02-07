@@ -21,41 +21,6 @@
          margin-left: auto; margin-right: auto;
          color: #f2f2f2;
     }
-    .none {display: none;
-
-    }
-    #noon {display: none;
-
-    }
-    #moon {position: absolute; top: 10px;
-            display: block;
-            height: 120px; width: auto;
-            margin-top: 20%;
-
-    }
-    #herent {display: none;
-
-    }
-    #here { position: absolute; top: 110px;
-            left: 28px;
-            color:aliceblue;
-            font-size: 24px;
-            font-weight: bold;
-
-    }
-    .frame{ position: absolute; 
-             margin-top: 1px;  
-             width: 320px;
-             height: 350px;
-             margin-left: 20px;
-             display: none;
-    }
-    
-    p {position: absolute; top: 440px;
-        left: 50px;
-        font-size: 14px;
-
-    }
     nav {display: block; padding: 5px;
         color: #f2f2f2; font-size: medium; border-color: #f2f2f2;
         text-align: center;
