@@ -69,7 +69,7 @@ function display(){
 
 function flash(color, answer){
     let a = setInterval(() => {
-        document.getElementById(answer).style.display = "block";
+       // document.getElementById(answer).style.display = "block";
         if ((document.getElementById("body").style.backgroundColor == color))
             document.getElementById("body").style.backgroundColor = "#58375A";
         else
@@ -78,7 +78,8 @@ function flash(color, answer){
     
     setTimeout(() => {
        clearInterval(a);
-       document.getElementById(answer).style.display = "none";
+       document.getElementById("body").style.backgroundColor = "#58375A";
+       //document.getElementById(answer).style.display = "none";
     }, 1000);
 }
 
